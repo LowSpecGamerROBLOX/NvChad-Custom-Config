@@ -1,6 +1,6 @@
 
 -- @name chadrc.lua
--- @author Guillermo Morell Jr
+-- @author LowSpecGamerROBLOX
 -- @description NvChad custom configuration
 -- @date 23-04-03
 -- @note NvChad themes at bottom of file
