@@ -1,5 +1,4 @@
 -- plugins config
-
 local bruh = {
 		["neovim/nvim-lspconfig"] = {
 			opt = true,
@@ -86,6 +85,14 @@ local plugins = {
     config = function()
       require "plugins.configs.lspconfig"
       require "custom.configs.lspconfig"
+    end,
+  },
+
+  {
+    "goolord/alpha-nvim",
+    disable = false,
+    config = function()
+      require "custom.configs.alpha"
     end,
   },
 
