@@ -88,20 +88,29 @@ local plugins = {
     end,
   },
 
+  -- discord prescence
   {
-    "goolord/alpha-nvim",
-    disable = false,
+    "andweeb/presence.nvim",
     config = function()
-      require "custom.configs.alpha"
+      require "custom.configs.presence"
     end,
   },
 
   {
-    "vim-crystal/vim-crystal",
-    ft = 'crystal'
+    "neovim/nvim-lspconfig",
+     dependencies = {
+       "jose-elias-alvarez/null-ls.nvim",
+       config = function()
+         require "custom.configs.null-ls"
+       end,
+     },
+     config = function()
+        require "plugins.configs.lspconfig"
+        require "custom.configs.lspconfig"
+     end,
   },
 
-  -- status = {colorizer = true}
+  status = {colorizer = true}
 }
 
 return plugins

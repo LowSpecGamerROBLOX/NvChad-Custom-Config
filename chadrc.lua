@@ -1,9 +1,15 @@
-
 -- @name chadrc.lua
 -- @author LowSpecGamerROBLOX
 -- @description NvChad custom configuration
 -- @date 23-04-03
 -- @note NvChad themes at bottom of file
+
+local header = {
+  "",
+  "",
+  "",
+  "",
+}
 
 local config = {}
 
@@ -13,10 +19,10 @@ config.plugins = "custom.plugins"
 config.ui = {
 
   -- base46
-  lsp_semantic_tokens = false, -- needs nvim v0.9, just adds highlight groups for lsp semantic tokens
+  lsp_semantic_tokens = true, -- needs nvim v0.9, just adds highlight groups for lsp semantic tokens
 
-  theme = "nord",
-  theme_toggle = {"onenord", "nord"},
+  theme = "github_dark",
+  theme_toggle = {"github_dark", "everforest"},
 
   -- cmp themeing
   cmp = {
@@ -31,10 +37,10 @@ config.ui = {
 
   ----- nvchad ui modules -----
   statusline = {
-    theme = "default", -- default/vscode/vscode_colored/minimal
+    theme = "minimal", -- default/vscode/vscode_colored/minimal
     -- default/round/block/arrow separators work only for default statusline theme
     -- round and block will work for minimal theme only
-    separator_style = "default",
+    separator_style = "round",
     overriden_modules = nil,
   },
 
@@ -81,28 +87,28 @@ return config
 -- nvchad.com themes --
 --
 -- aquarium
--- ashes
--- ayu_dark
+-- github_dark
+-- everforest
 -- ayu_light
 -- bearded-arc
 -- blossom_light
 -- catppuccin
 -- chadracula
--- chadtain
--- chocolate
+-- everforest
+-- github_dark
 -- dark_horizon
 -- decay
--- doomchad
+-- everforest
 -- everblush
 -- everforest
--- everforest_light
+-- everforest
 -- falcon
 -- gatekeeper
--- github_dark -- !!
--- github_light -- !!
--- gruvbox
--- gruvbox_light
--- gruvchad
+-- everforest -- !!
+-- everforest -- !!
+-- everforest
+-- everforest_light
+-- everforest
 -- jellybeans
 -- kanagawa
 -- melange
@@ -112,12 +118,12 @@ return config
 -- nightfox
 -- nightlamp
 -- nightowl
--- nord -- !!
+-- github_dark -- !!
 -- oceanic-light
 -- oceanic-next
 -- one_light
--- onedark
--- onenord
--- onenord_light
+-- everforest
+-- github_dark
+-- github_dark_light
 -- solarized_dark
--- vscode_dark
+-- everforest
