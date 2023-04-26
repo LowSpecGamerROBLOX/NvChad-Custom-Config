@@ -1,0 +1,43 @@
+-- nvchad.com themes --
+--
+-- nord
+-- github_dark
+-- nord
+-- ayu_light
+-- bearded-arc
+-- blossom_light
+-- catppuccin
+-- chadracula
+-- nord
+-- github_dark
+-- dark_horizon
+-- decay
+-- nord
+-- everblush
+-- nord
+-- nord
+-- falcon
+-- gatekeeper
+-- nord -- !!
+-- nord -- !!
+-- nord
+-- nord_light
+-- nord
+-- jellybeans
+-- kanagawa
+-- melange
+-- monekai
+-- monochrome
+-- mountain
+-- nightfox
+-- nightlamp
+-- nightowl
+-- github_dark -- !!
+-- oceanic-light
+-- oceanic-next
+-- one_light
+-- nord
+-- github_dark
+-- github_dark_light
+-- solarized_dark
+-- nord

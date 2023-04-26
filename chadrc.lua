@@ -4,15 +4,7 @@
 -- @date 23-04-03
 -- @note NvChad themes at bottom of file
 
-local header = {
-  "",
-  "",
-  "",
-  "",
-}
-
 local config = {}
-
 
 config.plugins = "custom.plugins"
 
@@ -21,8 +13,8 @@ config.ui = {
   -- base46
   lsp_semantic_tokens = true, -- needs nvim v0.9, just adds highlight groups for lsp semantic tokens
 
-  theme = "github_dark",
-  theme_toggle = {"github_dark", "everforest"},
+  theme = "blossom_light",
+  theme_toggle = {"blossom_light", "nord"},
 
   -- cmp themeing
   cmp = {
@@ -47,6 +39,7 @@ config.ui = {
   -- nvdash (dashboard)
   nvdash = {
     load_on_startup = true,
+    
 
     header = {
       "           ▄ ▄                   ",
@@ -86,29 +79,29 @@ return config
 
 -- nvchad.com themes --
 --
--- aquarium
--- github_dark
--- everforest
+-- nord
+-- blossom_light
+-- nord
 -- ayu_light
 -- bearded-arc
 -- blossom_light
 -- catppuccin
--- chadracula
--- everforest
--- github_dark
+-- blossom_light
+-- nord
+-- blossom_light
 -- dark_horizon
 -- decay
--- everforest
--- everblush
--- everforest
--- everforest
+-- nord
+-- blossom_light
+-- nord
+-- nord
 -- falcon
 -- gatekeeper
--- everforest -- !!
--- everforest -- !!
--- everforest
--- everforest_light
--- everforest
+-- nord -- !!
+-- nord -- !!
+-- nord
+-- nord_light
+-- nord
 -- jellybeans
 -- kanagawa
 -- melange
@@ -118,12 +111,12 @@ return config
 -- nightfox
 -- nightlamp
 -- nightowl
--- github_dark -- !!
+-- blossom_light -- !!
 -- oceanic-light
 -- oceanic-next
 -- one_light
--- everforest
--- github_dark
--- github_dark_light
+-- nord
+-- blossom_light
+-- blossom_light_light
 -- solarized_dark
--- everforest
+-- nord
